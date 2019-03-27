@@ -39,3 +39,29 @@ hr.light {
 .page-section {
   padding: 8rem 0;
 }
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+
+}
+
+.about-text {
+  width: 65%;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.about-header {
+  width: 100% !important;
+}
+
+.about-container {
+  display: flex !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+}
