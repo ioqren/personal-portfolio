@@ -10604,6 +10604,11 @@ hr.light {
   width: 80%;
 }
 
+.resume-btn {
+  position: relative;
+  top: 30px;
+}
+
 .about-text {
   width: 65%;
 }
@@ -10617,6 +10622,17 @@ hr.light {
 }
 
 .about-container {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+}
+
+#about {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;

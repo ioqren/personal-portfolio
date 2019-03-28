@@ -48,6 +48,11 @@ hr.light {
 
 }
 
+.resume-btn {
+  position: relative;
+  top: 30px;
+}
+
 .about-text {
   width: 65%;
 }
@@ -61,6 +66,12 @@ hr.light {
 }
 
 .about-container {
+  display: flex !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+}
+
+#about {
   display: flex !important;
   justify-content: center !important;
   flex-wrap: wrap !important;
