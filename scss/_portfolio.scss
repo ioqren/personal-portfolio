@@ -41,6 +41,11 @@
       }
     }
   }
- 
+}
+
+.img-fluid {
+  width: 100%  !important;
+    height: 250px !important;
+  object-fit: cover;
 }
 

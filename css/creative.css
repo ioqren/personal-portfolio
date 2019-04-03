@@ -489,7 +489,6 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
-
 }
 
 .img-thumbnail {
@@ -10800,4 +10799,11 @@ header.masthead h1 {
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+.img-fluid {
+  width: 100%  !important;
+  height: 250px !important;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
