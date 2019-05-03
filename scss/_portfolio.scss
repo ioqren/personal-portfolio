@@ -1,5 +1,9 @@
 // Styling for the portfolio section
 #portfolio {
+  padding-top: 8rem;
+  .divider {
+    padding-bottom: 1.5rem !important;
+  }
   .container-fluid {
     max-width: 1920px;
     .portfolio-box {
