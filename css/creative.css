@@ -10602,6 +10602,8 @@ hr.light {
   -ms-flex-align: center;
   align-items: center;
   width: 80%;
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
 }
 
 .resume-btn {
