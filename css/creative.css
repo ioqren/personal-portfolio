@@ -10752,6 +10752,7 @@ header.masthead h1 {
 
 #portfolio {
   padding-top: 8rem;
+  margin: 0 5vw;
 }
 
 #portfolio .divider {
@@ -10763,6 +10764,7 @@ header.masthead h1 {
 }
 
 #portfolio .container-fluid .portfolio-box {
+  margin: 5px;
   position: relative;
   display: block;
 }
