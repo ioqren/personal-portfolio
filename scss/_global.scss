@@ -42,23 +42,35 @@ hr.light {
 
 .about-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 80%;
   flex-wrap: wrap !important;
 }
+
+.breaker{ display:block;
+  width:100%;
+  height:0;}
+
 
 .resume-btn {
   position: relative;
   top: 30px;
 }
 
+.resume-btn-container {
+  width: 100vw;
+}
+
 .about-text {
   width: 65%;
+
 }
 
 .img-circle {
   border-radius: 50%;
+  width: 10vw;
+  object-fit: cover;
 }
 
 .about-header {
