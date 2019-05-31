@@ -42,7 +42,7 @@ hr.light {
 
 .about-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 80%;
   flex-wrap: wrap !important;
@@ -59,7 +59,7 @@ hr.light {
 
 .img-circle {
   border-radius: 50%;
-  width: 5vw;
+  width: 10vw;
   object-fit: cover;
 }
 
